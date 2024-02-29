@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda Informática</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        #main-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #3498db;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .info-card {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Laboratorio Virtual </h1>
+    <p>Explorando o mundo da tecnologia de forma divertida!</p>
+</header>
+
+<div id="main-content">
+    <h2> Aprenda Informática - Laboratorio Virtual Educacional Para Estudantes, Silva, A. R. (2013). Repaginação de laboratório de informática: uma atividade de extensão. In S. Carvalho (Ed.), Trabalhos de extensão: experiências e aplicações (pp. 97-103). São Paulo: Cortez. Miller</h2>
+
+    <div class="info-card">
+       <li><a href="Conceitos Basicos de Computadores e Notebooks.html" target="_blank"> Conceitos básicos de Computadores - Notebooks </a></li>
+    </div>
+
+    <div class="info-card">
+        <li><a href="Turma A.html" target="_blank"> Turma A </a></li>
+    </div>
+
+    <div class="info-card">
+        <li><a href="Turma B.html" target="_blank"> Turma B </a></li>
+    </div>
+</div>
+
+<section id="contato">
+    <h2>Ficou com alguma duvida ?</h2>
+    <p>Entre em contato comigo  pelos meios de comunicação:</p>
+    <p>Patrickoliveira67@hotmail.com</p>
+    <p>WhatsApp : +5541987834131</p>
+    <p> Ou mande sua Pergunta, que irei responder assim que possivel =D</p>
+    <form action="enviar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Análise e Desenvolvimento de Sistemas - Uninter Patrick de Oliveira RU: 4175196</p>
+</footer>
+
+</body>
+</html>
